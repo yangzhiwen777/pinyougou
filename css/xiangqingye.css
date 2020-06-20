@@ -1,0 +1,110 @@
+.dropdown .dd {
+    display: none;
+}
+.xiangqingye {
+    /* margin-top: 20px; */
+    height: 610px;
+    /* background-color: pink; */
+}
+.shangbu {
+    padding-top: 20px;
+    height: 620px;
+    background-color: pink;
+    
+
+}
+.title {
+    padding-bottom: 10px;
+}
+.shangzuo {
+    float: left;
+    position: relative;
+    float: left;
+    width: 450px;
+    height: 590px;
+    /* background-color:yellow; */
+}
+.shangzuo p {
+    padding-top: 30px;
+    width: 450px;
+    height: 400px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+.shangzuo a {
+    padding-right: 15px;
+}
+.shangyou {
+    float: right;
+    width: 720px;
+    height: 590px;
+    /* background-color:pink; */
+}
+.xia {
+    padding-top: 62px;
+    text-align: center;
+}
+.xia .fl {
+    padding-top: 10px;
+}
+.xia .fr {
+    padding-top: 10px;
+}
+.zuixia {
+    position: absolute;
+    padding-top: 20px;
+}
+.zuixia i{
+    padding-right: 35px;
+}
+.zuixia .guanzhu::before {
+    font-family: 'icomoon';
+    content: '\e92a';
+    color: red;
+    padding-right: 5px;
+}
+.zuixia .fenxiang::before {
+    font-family: 'icomoon';
+    content: '\ea82';
+    color: red;
+    padding-right: 5px;
+}
+.shangyou h3 {
+    font-size: 16px;
+    color: #333;
+}
+.tuijian {
+    font-size: 12px;
+    color: #e12228;
+}
+.hong {
+    height: 113px;
+    /* background-color: skyblue; */
+}
+.hong i:nth-child(1) {
+    padding-right: 15px;
+}
+.hong i:nth-child(2) {
+    color: red;
+    font-size: 24px;
+}
+.hong i:nth-child(3) {
+    color: red;
+
+}
+.hong i:nth-child(4) {
+    float: right;
+    padding-top: 15px;
+
+}
+.cuxiao i:nth-child(2) {
+    color: #fff;
+    font-size: 16px;
+   background-color: red;
+}
+.cuxiao i:nth-child(3) {
+    display: inline-block;
+    padding-top: 20px;
+    width: 500px;
+    color: #ccc;
+}

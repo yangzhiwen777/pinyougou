@@ -1,0 +1,308 @@
+/* 焦点图 */
+.main {
+    width: 979px;
+    height: 455px;
+    margin-left: 221px;
+    margin-top: 7px;
+    /* background-color: pink; */
+}
+.focus {
+    position: relative;
+    overflow: hidden;
+    float: left;
+    width: 721px;
+    height: 455px;
+    /* background-color: yellow; */
+}
+.focus .fl {
+    display: none;
+    position: absolute;
+    top: 230px;
+    left: 0;
+}
+.focus .fr {
+    display: none;
+
+    position: absolute;
+    top: 230px;
+    right: 0;
+}
+.focus ul {
+    position: absolute;
+    width: 700%;   
+
+}
+.focus ul li {
+    float: left;
+}
+.focus img {
+    width: 100%;
+    height: 100%;
+}
+.circle {
+    position: absolute;
+    bottom: 10px;
+    left: 50px;
+}
+
+.circle li {
+    float: left;
+    width: 8px;
+    height: 8px;
+    /*background-color: #fff;*/
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    margin: 0 3px;
+    border-radius: 50%;
+    /*鼠标经过显示小手*/
+    cursor: pointer;
+}
+
+.current {
+    background-color: #fff;
+}
+.newflash {
+    float: right;
+    width: 251px;
+    height: 455px;
+    /* background-color: purple; */
+}
+.news {
+    /* width: 251px; */
+    height: 166px;
+    /* background-color: yellow; */
+    border: 1px solid #e4e4e4;
+}
+.lifeservice {
+    /* width: 251px; */
+    height: 210px;
+    /* background-color: greenyellow; */
+}
+.bargain {
+    margin-top: 3px;
+
+}
+.bargain img {
+    width: 100%;
+    height: 100%;
+}
+/* 快报模块 */
+.news-hd {
+    padding: 0 15px;
+    height: 33px;
+    line-height: 33px;
+    border-bottom: 1px dotted #e4e4e4;
+}
+.news-hd h4 {
+    float: left;
+    font-size: 14px;
+}
+.news-hd a {
+    float: right;
+}
+.news-hd a::after {
+    font-family: 'icomoon';
+    content: '\e902';
+    padding-left: 6px;
+}
+.news-bd {
+    padding: 5px 15px 0;
+}
+.news-bd ul li {
+    height: 24px;
+    line-height: 24px;
+     /* 单行溢出隐藏  三步骤 */
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.news-bd ul li a {
+    font-size: 14px;
+}
+.lifeservice {
+    border: 1px solid#e4e4e4;
+    border-top: 0;
+    overflow: hidden;
+}
+.lifeservice ul {
+    width: 252px;
+}
+.lifeservice ul li {
+    float: left;
+    width: 63px;
+    height: 71px;
+    text-align: center;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+}
+.lifeservice ul li .xiaotubiao {
+    display: inline-block;
+    margin-top: 12px;
+    width: 21px;
+    height: 26px;
+    background-color: pink;
+    background: url(../images/icons.png) no-repeat -17px -14px;
+}
+.lifeservice ul li {
+    position: relative;
+}
+.lifeservice ul li span img {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+/* 推荐模块 */
+.recom {
+    height: 163px;
+    /* background-color: pink; */
+    margin-top: 10px;
+}
+.recom .recom_hd {
+    float: left;
+    width: 207px;
+    height: 163px;
+    text-align: center;
+    background-color: #5c5251;
+}
+.recom .recom_hd img {
+    padding-top: 30px;
+}
+.recom .recom_bd {
+    float: left;
+    width: 993px;
+    height: 163px;
+    /* background-color: green; */
+}
+.recom .recom_bd ul li {
+    position: relative;
+    float: left;
+    height: 163px;
+    width: 248px;
+}
+.recom .recom_bd ul li:nth-child(-n+3)::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 10px;
+    width: 1px;
+    height: 146px;
+    background-color: #ddd;
+
+}
+.recom .recom_bd ul li img {
+    width: 100%;
+    height: 100%;
+}
+.box_hd {
+    margin-top: 30px;
+    height: 30px;
+    border-bottom: 2px solid #c81623;
+}
+.box_hd h4 {
+    float: left;
+    font-size: 18px;
+    color: #c81623;
+    font-weight: 400;
+}
+.tab_list {
+    float: right;
+    line-height: 30px;
+}
+.tab_list ul li {
+    float: left;
+}
+.tab_list ul li a {
+    padding: 0 15px;
+}
+
+.tab_list_item>div {
+    float: left;
+    height: 361px;
+
+}
+
+.box_bd {
+    /* text-align: center; */
+    height: 361px;
+    /* background-color: pink; */
+}
+.col_210 {
+    width: 210px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+.col_210 a img {
+    padding-top: 20px;
+}
+.col_210 ul {
+    padding-left: 13px;
+}
+.col_210 li {
+    float: left;
+    border-bottom: 1px solid #ccc;
+    width: 86px;
+    height: 33px;
+    line-height: 33px;
+    margin-right: 10px;
+}
+.col_329 {
+    width: 329px;
+}
+.col_329 a img {
+    width: 100%;
+    height: 100%;
+}
+.col_221 {
+    width: 221px;
+    border-right: 1px solid #ccc;
+}
+.col_221 a {
+    display: block;
+}
+.col_219 {
+    width: 219px;
+}
+.col_219 a {
+    display: block;
+}
+.bb {
+    border-bottom: 1px solid #ccc;
+}
+img {
+    /*过渡写到本身上， 谁做动画，给谁加*/
+    transition: all .2s;
+}
+
+
+/*我们鼠标经过图片 往右走 8px*/
+
+img:hover {
+    transform: translateY(-5PX);
+}
+
+
+/*电梯导航*/
+
+.fixedtool {
+    position: fixed;
+    top: 100px;
+    left: 50%;
+    margin-left: -676px;
+    width: 66px;
+    background-color: #fff;
+    display: none;
+}
+
+.fixedtool li {
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    font-size: 12px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.fixedtool .current {
+    background-color: #c81623;
+    color: #fff;
+}
+
